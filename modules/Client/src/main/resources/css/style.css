@@ -1,0 +1,136 @@
+#loginButton{
+	-fx-background-color: #91cb3e;
+}
+
+#loginButton:hover{
+	-fx-background-color: linear-gradient( #91cb3e, #ffffff);
+}
+
+#sign_up_personal{
+	-fx-background-color:  #91cb3e;
+}
+
+#sign_up_personal:hover{
+	-fx-background-color: linear-gradient( #91cb3e, grey);
+}
+
+#addActivityButton{
+	-fx-background-color: #000000;
+}
+
+#addActivityButton:hover{
+	-fx-background-color: linear-gradient(#000000, grey);
+}
+
+#signUpButton{
+	-fx-background-color: #000000;
+}
+
+#signUpButton:hover{
+	-fx-background-color: linear-gradient(#000000, grey);
+}
+
+#backButton{
+	-fx-background-color: #000000;
+}
+
+#backButton:hover{
+	-fx-background-color: linear-gradient(#000000, grey);
+}
+
+#addButton{
+	-fx-background-color: #000000;
+}
+
+#addButton:hover{
+	-fx-background-color: linear-gradient(#000000, grey);
+}
+
+#addVeganMealButton{
+	-fx-background-color: #ffffff;
+	-fx-background-radius: 100px;
+}
+
+#addSolarPanelButton{
+	-fx-background-color: #ffffff;
+	-fx-background-radius: 100px;
+}
+
+
+#addPublicTransportButton{
+	-fx-background-color: #ffffff;
+	-fx-background-radius: 100px;
+}
+
+
+#addBikeButton{
+	-fx-background-color: #ffffff;
+	-fx-background-radius: 100px;
+}
+
+#addLocalProductButton{
+	-fx-background-color: #ffffff;
+	-fx-background-radius: 100px;
+}
+
+
+#addTemperatureButton{
+	-fx-background-color: #ffffff;
+	-fx-background-radius: 100px;
+}
+
+
+#signupName {
+	-fx-border-color: grey;
+	-fx-border-width: 0 0 1 0;
+	-fx-background-color: transparent;
+}
+
+#email {
+	-fx-border-color: grey;
+	-fx-border-width: 0 0 1 0;
+	-fx-background-color: transparent;
+}
+
+#rePassword {
+	-fx-border-color: grey;
+	-fx-border-width: 0 0 1 0;
+	-fx-background-color: transparent;
+}
+
+#password {
+	-fx-border-color: grey;
+	-fx-border-width: 0 0 1 0;
+	-fx-background-color: transparent;
+}
+
+.text-area {
+	-fx-control-inner-background:#91cb3e;
+	-fx-background-color:  #91cb3e;
+	-fx-border-width: 0;
+	-fx-focus-color: transparent;
+}
+
+.text-area *.text {
+	-fx-text-alignment: center;
+}
+
+#solarHomeLabel .scroll-pane {
+	-fx-hbar-policy: never;
+	-fx-vbar-policy: never;
+}
+
+#publicBikeLabel .scroll-pane {
+	-fx-hbar-policy: never;
+	-fx-vbar-policy: never;
+}
+
+#veganLocalLabel .scroll-pane {
+	-fx-hbar-policy: never;
+	-fx-vbar-policy: never;
+}
+
+.button:hover{
+	-fx-scale-x: 1.1;
+	-fx-scale-y: 1.1;
+}
